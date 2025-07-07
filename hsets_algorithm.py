@@ -58,8 +58,6 @@ def verifyProperty4(A):
 def filterHSetsCollections(hSetsCollection, n):
     return [A for A in hSetsCollection if verifyProperty1(A, n) and verifyProperty4(A) and verifyProperty3(A)]
 
-for n in range(3,10):
-    hSetsCollection=hSetsCollectionsBuilder(hSetsBuilder(n))
-    filtered=filterHSetsCollections(hSetsCollection, n)
-    print(f"n = {n}, {filtered}")
-    print()
+hSetsCollection=hSetsCollectionsBuilder(hSetsBuilder(n))
+filtered=filterHSetsCollections(hSetsCollection, n)
+print(f"n = {n}, {filtered}")
