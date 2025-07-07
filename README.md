@@ -18,8 +18,7 @@ Sitúese en la carpeta del proyecto y ejecute en una terminal:
 python hsets_algorithm.py
 El script muestra los resultados para los valores de n comprendidos entre 3 y 9.
 
-Ejecución en línea
-Cuando se añada el notebook interactivo, se podrá ejecutar el código desde Binder; la dirección aparecerá aquí.
+Ejecución en línea: https://hub.2i2c.mybinder.org/user/ngetsmart-algoritmo-tesis-sb5c1mrz/doc/tree/notebook.ipynb
 
 Dependencias
 Solo se utiliza la biblioteca estándar itertools incluida en cualquier instalación de Python 3, por lo que no se necesitan paquetes adicionales.
